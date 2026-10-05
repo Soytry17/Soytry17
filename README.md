@@ -5,35 +5,21 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-mst-six.vercel.app"><img src="https://img.shields.io/badge/Portfolio-open-0b0e12?style=for-the-badge&logo=vercel&logoColor=3ee0c5&color=10151c" alt="Portfolio" /></a>
-  <a href="mailto:meysoytry@gmail.com"><img src="https://img.shields.io/badge/Email-meysoytry-0b0e12?style=for-the-badge&logo=gmail&logoColor=f0b429&color=10151c" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Khmer%20·%20English%20·%20Korean-10151c?style=for-the-badge" alt="Languages" />
+  <a href="https://portfolio-mst-six.vercel.app"><img src="https://img.shields.io/badge/Portfolio-open-10151c?style=for-the-badge&logo=vercel&logoColor=3ee0c5" alt="Portfolio"/></a>
+  <a href="mailto:meysoytry@gmail.com"><img src="https://img.shields.io/badge/Email-meysoytry-10151c?style=for-the-badge&logo=gmail&logoColor=f0b429" alt="Email"/></a>
+  <a href="https://github.com/Soytry17/olist_brazilian_e-commerce_analytics_platform"><img src="https://img.shields.io/badge/Featured-Olist_ELT-10151c?style=for-the-badge&logo=snowflake&logoColor=29B5E8" alt="Olist"/></a>
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,postgres,fastapi,docker,react,nextjs,ts,tailwind&theme=dark" alt="stack" />
-</p>
+CSV → S3 → Snowflake Bronze → dbt Silver / Gold / Mart → Airflow → Power BI
 
-### The line
+### Proof
 
-Led the RippleEco frontend, then shipped SQLyst.
+| Repo | What it is |
+| --- | --- |
+| [olist_brazilian_e-commerce_analytics_platform](https://github.com/Soytry17/olist_brazilian_e-commerce_analytics_platform) | Olist ELT. About 99k orders and 1M geolocation rows landed on S3, copied into Snowflake, modeled in dbt as a star, orchestrated with Airflow, reported in Power BI. |
+| [psql_data_warehouse](https://github.com/Soytry17/psql_data_warehouse) | PostgreSQL warehouse for ERP and CRM CSVs. Bronze, silver, gold, tests, and a gold star schema. |
+| [env-data-pipeline](https://github.com/Soytry17/env-data-pipeline) | Pipeline repo with Airflow, a dbt project, and Docker Compose. |
 
-`Postgres → FastAPI → LLM query → Prophet → dashboard`
+Also shipped SQLyst (Postgres → FastAPI → LLM query → Prophet) and led the RippleEco frontend. B.IT, 3rd year, University of Cambodia. Advanced data track, Korean Software HRD Center, 2025.
 
-### Work
-
-| Project | Pipeline | My part |
-| --- | --- | --- |
-| **SQLyst** | Postgres → FastAPI → LLM query → Prophet → dashboard | UX, frontend, backend, forecasting model |
-| **RippleEco** | Selenium → Spring Boot → PostgreSQL → Telegram / OneSignal | Frontend team lead, backend, ingest |
-
-### Stack I can defend
-
-`Python` `Pandas` `SQL` `PostgreSQL` `ETL/ELT` `Power BI` `FastAPI` `Docker` `Prophet` `React` `Next.js`
-
-Korean Software HRD Center, advanced data track, 2025. B.IT, 3rd year, University of Cambodia.
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Soytry17&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0b0e12&title_color=3ee0c5&icon_color=f0b429&text_color=e7edf4" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Soytry17&layout=compact&theme=tokyonight&hide_border=true&bg_color=0b0e12&title_color=3ee0c5&text_color=e7edf4" alt="Top languages" height="165" />
-</p>
+`Python` `SQL` `PostgreSQL` `Snowflake` `dbt` `Airflow` `S3` `Power BI` `Docker` `FastAPI`
